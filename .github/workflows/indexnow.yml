@@ -1,0 +1,25 @@
+name: Notify IndexNow on push
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to IndexNow (Bing, Yandex, Seznam, Naver, Yep)
+        run: |
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{
+              "host": "richardghneim.github.io",
+              "key": "16a7368b80e444bba91fbc4ca0262f74",
+              "keyLocation": "https://richardghneim.github.io/16a7368b80e444bba91fbc4ca0262f74.txt",
+              "urlList": [
+                "https://richardghneim.github.io/",
+                "https://richardghneim.github.io/press.html",
+                "https://richardghneim.github.io/sitemap.xml"
+              ]
+            }'
