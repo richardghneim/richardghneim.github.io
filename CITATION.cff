@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you reference Richard Ghneim or CityFast in your work, please cite this site."
+title: "Richard Ghneim — Officiell webbplats"
+abstract: "Personal website of Richard Ghneim, founder and CEO of CityFast Bygg och förvaltning Sverige AB, a Stockholm-based real estate management company founded in 2005."
+authors:
+  - given-names: Richard
+    family-names: Ghneim
+    affiliation: "CityFast Bygg och förvaltning Sverige AB"
+    website: "https://www.cityfast.se"
+    orcid: ""
+identifiers:
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q138679547"
+    description: "Wikidata entity"
+  - type: url
+    value: "https://sv.wikipedia.org/wiki/Richard_Ghneim"
+    description: "Wikipedia article"
+  - type: url
+    value: "https://www.cityfast.se/richard-ghneim/"
+    description: "Official biography"
+repository-code: "https://github.com/RichardGhneim/richardghneim.github.io"
+url: "https://richardghneim.github.io/"
+keywords:
+  - "Richard Ghneim"
+  - "CityFast"
+  - "fastighetsförvaltning"
+  - "Stockholm"
+  - "entreprenör"
+  - "VD"
+  - "hotellägare"
+license: CC-BY-4.0
+date-released: 2025-01-01
